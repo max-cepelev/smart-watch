@@ -25,16 +25,19 @@
         font-weight: 700;
         color: #ffffff;
         text-align: center;
+        transition: 0.4s all;
         &:hover {
             color: #ffffff;
             text-decoration: none;
+            transform: scale(1.1);
+            transition: 0.4s all;
         }
     }
     &__social {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 32spx;
+        margin-top: 32px;
         &-item {
             display: flex;
             justify-content: center;
@@ -44,8 +47,13 @@
             border: 2px solid #ffffff;
             border-radius: 100%;
             margin: 0 15px;
+            transition: 0.4s all;
             img {
                 height: 27px;
+            }
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.4s all;
             }
         }
     }
