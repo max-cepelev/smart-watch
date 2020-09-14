@@ -4,6 +4,16 @@
     align-items: center;
     &__logo {
         width: 250px;
+        -webkit-transition: 0.3s all;
+        -moz-transition: 0.3s all;
+        transition: 0.3s all;
+        &:hover {
+            -webkit-filter: drop-shadow( 0 0 2px #ffffff );
+            filter: drop-shadow( 0 0 2px #ffffff );
+            -webkit-transition: 0.3s all;
+            -moz-transition: 0.3s all;
+            transition: 0.3s all;
+        }
     }
     img {
         width: 100%;
@@ -25,9 +35,12 @@
         font-size: 18px;
         font-weight: 700;
         color: #ffffff;
+        transition: 0.4s all;
         &:hover {
             color: #ffffff;
             text-decoration: none;
+            text-shadow: 0 0 9px #ffffff;
+            transition: 0.4s all;
         }
     }
     &__contacts {

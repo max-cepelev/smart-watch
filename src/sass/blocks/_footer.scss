@@ -28,8 +28,8 @@
         transition: 0.4s all;
         &:hover {
             color: #ffffff;
+            text-shadow: 0 0 9px #ffffff;
             text-decoration: none;
-            transform: scale(1.1);
             transition: 0.4s all;
         }
     }

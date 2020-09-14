@@ -86,6 +86,9 @@
             font-weight: 300;
             color: #0d0d0d;
             text-align: center;
+            &_active {
+                display: none;
+            }
         }
         &__link {
             display: block;

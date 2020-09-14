@@ -49,6 +49,12 @@
             text-decoration: underline;
             text-transform: uppercase;
             color: #ffffff;
+            transition: 0.4s all;
+            &:hover {
+                text-shadow: 0 0 9px #ffffff;
+                transition: 0.4s all;
+        }
+
         }
         
     }

@@ -4,20 +4,12 @@ const slider = tns({
     slideBy: 'page',
     autoplay: false,
     controls: false,
-    nav: false
-    // responsive: {
-    //     640: {
-    //       edgePadding: 20,
-    //       gutter: 20,
-    //       items: 2
-    //     },
-    //     767: {
-    //       gutter: 30
-    //     },
-    //     900: {
-    //       items: 1
-    //     }
-    // }
+    nav: false,
+    responsive: {
+        575: {
+            nav: true
+        }
+    }
 });
 
 document.querySelector('.prev').addEventListener('click', function () {
