@@ -99,7 +99,7 @@
 
 @media (max-width:767px) {
     .container {
-        max-width: 558px;
+        max-width: 540px;
     }
     .title {
         font-size: 25px;
@@ -188,6 +188,24 @@
                 width: 460px;
                 height: auto;
             }
+        }
+    }
+    .comment {
+        &__item {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 30px auto;
+        }
+        &__foto {
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__subtitle {
+            text-align: center;
         }
     }
 }

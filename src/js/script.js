@@ -8,6 +8,9 @@ const slider = tns({
     responsive: {
         575: {
             nav: true
+        },
+        767: {
+            nav: false
         }
     }
 });
