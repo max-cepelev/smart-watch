@@ -370,4 +370,26 @@
             font-size: 14px;
         }
     }
+    .modal {
+        width: 300px;
+        padding: 25px;
+        min-height: 385px;
+        &__close {
+            right: 0px;
+            top: -25px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .feed-form {
+            width: 252px;
+        }
+        .button {
+            font-size: 15px;
+        }
+    }
 }
