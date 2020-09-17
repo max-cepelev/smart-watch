@@ -21,11 +21,11 @@
         right: -40px;
         font-size: 41px;
         line-height: 21px;
-        color: $main_color;
+        color: red;
         cursor: pointer;
         transition: 0.4s all;
         &:hover {
-            text-shadow: 0 0 9px $main_color;
+            text-shadow: 0 0 9px red;
             text-decoration: none;
             transition: 0.4s all;
         }
