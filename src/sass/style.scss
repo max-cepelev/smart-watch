@@ -1,3 +1,8 @@
+@import 'base/variables';
+@import 'base/titles';
+@import 'base/animations';
+
+
 *	{
 	font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -8,8 +13,6 @@
 	margin: 0 auto;
 }
 
-@import 'base/variables';
-@import 'base/titles';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/button';
@@ -21,4 +24,5 @@
 @import 'blocks/comment';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';
 @import 'base/media';
