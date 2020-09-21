@@ -1,5 +1,5 @@
 .comment {
-
+    padding: 23px 0;
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -14,7 +14,7 @@
     }
     &__item {
         display: flex;
-        margin: 50px auto;
+        margin: 32px 0 45px;
     }
     &__foto {
         margin-right: 62px;
@@ -32,6 +32,7 @@
     }
     &__descr {
         margin-top: 12px;
+        margin-right: 40px;
         font-size: 16px;
         line-height: 19px;
         font-weight: 300;

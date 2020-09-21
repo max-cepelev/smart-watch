@@ -80,7 +80,7 @@ $(document).ready(function(){
                 },
                 phone: "Пожалуйста, введите ваш номер телефона",
                 email: {
-                    required: "Пожалуйста, введите свой e-mail",
+                    required: "Пожалуйста, введите ваш e-mail",
                     email: "Неверный формат e-mail адреса"
                 }
             }
@@ -118,7 +118,7 @@ $(document).ready(function(){
         }
     });
 
-    $("a[href^='#']").click(function(){
+    $("a[href='#up']").click(function(){
         const _href = $(this).attr("href");
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
