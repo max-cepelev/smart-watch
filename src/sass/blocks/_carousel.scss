@@ -5,6 +5,16 @@
         width: 750px;
         height: auto;
         margin: 0 auto;
+        img {
+            width: calc(100% - 100px);
+            height: auto;
+        }
+        &_mini {
+            width: 260px;
+            img {
+                width: 260px;
+            }
+        }
     }
     .prev, .next {
         margin: 0;
@@ -39,7 +49,7 @@
     .tns-item {
         img {
             display: block;
-            margin: 0 auto;
+            margin: auto;
         }
     }
 }

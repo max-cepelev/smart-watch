@@ -62,9 +62,9 @@
         hr {
             width: 100%;
             height: 1px;
-            margin: 16px auto;
+            margin: 14px auto;
             background-color: #e8e8e8;
-            border-bottom: none;
+            border: none;
         }
         &__img {
             display: block;
@@ -73,27 +73,21 @@
             height: 200px;
         }
         &__subtitle {
-            margin-top: 20px;
             font-size: 16px;
             font-weight: 700;
             color: #0d0d0d;
             text-align: center;
         }
         &__descr {
-            margin-top: 6px;
             font-size: 14px;
             line-height: 19px;
             font-weight: 300;
             color: #0d0d0d;
             text-align: center;
-            padding: 0 10px;
-            &_active {
-                display: none;
-            }
+            padding: 0 35px;
         }
         &__link {
             display: block;
-            margin-top: 10px;
             font-size: 14px;
             font-weight: 500;
             text-decoration: underline;
@@ -125,6 +119,7 @@
         }
         &__content {
             width: 50%;
+            min-height: 322px;
             margin-right: 0px;
             transform: translateX(-100%);
             transition: 0.5s all;
@@ -132,6 +127,13 @@
                 transform: translateX(0%);
                 margin-right: 20px;
             }
+        }
+        &__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 20px;
+            min-height: 102px;
         }
         &__list {
             position: relative;
@@ -162,7 +164,7 @@
                     height: 5px;
                     background-color: $main-color;
                     left: -19px;
-                    top: 7px;
+                    top: 5px;
                 }
             }
         }
@@ -181,5 +183,6 @@
                 color: $main-color;
             }
         }
+        
     }
 }
