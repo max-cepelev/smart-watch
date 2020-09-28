@@ -127,6 +127,7 @@
         &__content {
             width: 50%;
             margin-right: 0px;
+            min-height: 320px;
             transform: translateX(-100%);
             transition: 0.5s all;
             display: flex;

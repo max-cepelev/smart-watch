@@ -5,16 +5,6 @@
         width: 750px;
         height: auto;
         margin: 0 auto;
-        img {
-            width: calc(100% - 100px);
-            height: auto;
-        }
-        &_mini {
-            width: 260px;
-            img {
-                width: 260px;
-            }
-        }
     }
     .prev, .next {
         margin: 0;
@@ -23,7 +13,7 @@
         outline: none;
         background-color: transparent;
         position: absolute;
-        top: 44%;
+        top: 50%;
         transform: translateY(-50%);
         left: 0;
         border: none;
@@ -50,6 +40,8 @@
         img {
             display: block;
             margin: auto;
+            width: calc(100% - 100px);
+            height: auto;
         }
     }
 }
