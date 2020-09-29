@@ -1,3 +1,7 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+// @import 'libs/tiny-slider';
+@import 'libs/animate';
 @import 'base/variables';
 @import 'base/titles';
 
@@ -17,8 +21,8 @@
 @import 'blocks/button';
 @import 'blocks/advantages';
 @import 'blocks/consultation';
-@import 'blocks/forms';
 @import 'blocks/carousel';
+@import 'blocks/forms';
 @import 'blocks/catalog';
 @import 'blocks/comment';
 @import 'blocks/footer';
