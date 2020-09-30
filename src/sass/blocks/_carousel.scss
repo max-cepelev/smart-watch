@@ -15,10 +15,10 @@
  * description of what each variable do, visit https://github.com/alexerlandsson/css-fadeshow
  */
 
-$max-slides:					5;
+$max-slides:					6;
 $prefix:						true;
 $responsive:					true;
-$breakpoint-small:				500px;
+$breakpoint-small:				555px;
 $fade-time:						1;
 $prev-next-fontfamily:			sans-serif;
 $prev-next-icon-size:			3vw;
@@ -194,6 +194,7 @@ $autoplay-duration:				5;
 
 		&:hover {
 			background-color: $prev-next-bg-hover;
+			text-shadow: 0 0 9px $main_color;
 			@if $responsive == true {
 				@media (max-width: $breakpoint-small) {
 					background-color: rgba(255,255,255,0);
@@ -212,6 +213,7 @@ $autoplay-duration:				5;
 			@if $responsive == true {
 				@media (max-width: $breakpoint-small) {
 					left: 30px;
+					display: none;
 				}
 			}
 		}
@@ -236,6 +238,7 @@ $autoplay-duration:				5;
 			@if $responsive == true {
 				@media (max-width: $breakpoint-small) {
 					right: 30px;
+					display: none;
 				}
 			}
 		}
@@ -393,7 +396,7 @@ $autoplay-duration:				5;
 		display: block;
 	}
 
-	.fs-next-btn:nth-child(2) {
+	.fs-next-btn:nth-child(1) {
 		display: block
 	}
 

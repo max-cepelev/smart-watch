@@ -4,16 +4,8 @@
     align-items: center;
     &__logo {
         width: 250px;
-        -webkit-transition: 0.3s all;
-        -moz-transition: 0.3s all;
-        transition: 0.3s all;
-        &:hover {
-            -webkit-filter: drop-shadow( 0 0 2px #ffffff );
-            filter: drop-shadow( 0 0 2px #ffffff );
-            -webkit-transition: 0.3s all;
-            -moz-transition: 0.3s all;
-            transition: 0.3s all;
-        }
+        filter: drop-shadow( 0 0 2px #ffffff );
+        -webkit-filter: drop-shadow( 0 0 2px #ffffff );
     }
     &__official {
         margin-right: 96px;
