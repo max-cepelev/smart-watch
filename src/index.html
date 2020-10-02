@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulse</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -48,7 +49,7 @@
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
                 <div class="advantages__item">
-                    <img src="icons/advantages/cup.png" alt="cup" class="advantages__icon animate__animated animate__tada wow" data-wow-duration="2s" data-wow-delay="1s">
+                    <img src="icons/advantages/cup.svg" alt="cup" class="advantages__icon animate__animated animate__tada wow" data-wow-duration="2s" data-wow-delay="1s">
                     <div class="advantages__subtitle animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-offset="150">Делимся опытом</div>
                     <div class="advantages__descr animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-offset="150">
                         Наши сотрудники всегда готовы поделиться своим опытом,<br> 
@@ -56,7 +57,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon animate__animated animate__heartBeat wow" data-wow-duration="2s" data-wow-delay="3s">
+                    <img src="icons/advantages/heart.svg" alt="heart" class="advantages__icon animate__animated animate__heartBeat wow" data-wow-duration="2s" data-wow-delay="3s">
                     <div class="advantages__subtitle animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-offset="150">Заботимся о здоровье</div>
                     <div class="advantages__descr animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-offset="150">
                         Мы работаем для того,<br> 
@@ -64,7 +65,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages/shoe.png" alt="shoe" class="advantages__icon animate__animated animate__swing wow" data-wow-duration="2s" data-wow-delay="5s">
+                    <img src="icons/advantages/shoe.svg" alt="shoe" class="advantages__icon animate__animated animate__swing wow" data-wow-duration="2s" data-wow-delay="5s">
                     <div class="advantages__subtitle animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-offset="150">Учим бегать</div>
                     <div class="advantages__descr animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-offset="150">
                         Помогаем с обучением<br> 
@@ -88,7 +89,7 @@
             </div>
             <form id="consultation-form" action="#" class="feed-form">
                 <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон" type="tel">
+                <input name="phone" required placeholder="Ваш телефон" id="phone_1" type="tel">
                 <input name="email" required placeholder="Ваш E-mail" type="email">
                 <button class="button button_submit">заказать консультацию</button>
             </form>
@@ -106,7 +107,7 @@
                 <input type="radio" name="css-fadeshow" id="slide-4" />
                 <input type="radio" name="css-fadeshow" id="slide-5" />
                 <input type="radio" name="css-fadeshow" id="slide-6" />
-        
+
                 <!-- Slides -->
                 <div class="fs-slides">
                     <div class="fs-slide"><img src="img/slider/slide_1.jpg" alt="slide_1"></div>
@@ -116,7 +117,7 @@
                     <div class="fs-slide"><img src="img/slider/slide_5.jpg" alt="slide_5"></div>
                     <div class="fs-slide"><img src="img/slider/slide_6.jpg" alt="slide_6"></div>
                 </div>
-        
+
                 <!-- Quick Navigation -->
                 <div class="fs-quick-nav">
                     <label class="fs-quick-btn" for="slide-1"></label>
@@ -126,7 +127,7 @@
                     <label class="fs-quick-btn" for="slide-5"></label>
                     <label class="fs-quick-btn" for="slide-6"></label>
                 </div>
-                
+
                 <!-- Prev Navigation -->
                 <div class="fs-prev-nav">
                     <label class="fs-prev-btn" for="slide-1"></label>
@@ -136,7 +137,7 @@
                     <label class="fs-prev-btn" for="slide-5"></label>
                     <label class="fs-prev-btn" for="slide-6"></label>
                 </div>
-                
+
                 <!-- Next Navigation -->
                 <div class="fs-next-nav">
                     <label class="fs-next-btn" for="slide-1"></label>
@@ -146,7 +147,6 @@
                     <label class="fs-next-btn" for="slide-5"></label>
                     <label class="fs-next-btn" for="slide-6"></label>
                 </div>
-        
             </div>
         </div>
     </div>
@@ -599,7 +599,7 @@
             </div>
             <form action="#" class="feed-form feed-form_modal">
                 <input name="name" placeholder="Ваше имя" type="text">
-                <input name="phone" placeholder="Ваш телефон" type="phone">
+                <input name="phone" placeholder="Ваш телефон" id="phone_2" type="tel">
                 <input name="email" placeholder="Ваш E-mail" type="email">
                 <button class="button button_submit">заказать консультацию</button>
             </form>
@@ -615,7 +615,7 @@
             </div>
             <form action="#" class="feed-form feed-form_modal">
                 <input name="name" placeholder="Ваше имя" type="text">
-                <input name="phone" placeholder="Ваш телефон" type="phone">
+                <input name="phone" placeholder="Ваш телефон" id="phone_3" type="tel">
                 <input name="email" placeholder="Ваш E-mail" type="email">
                 <button class="button button_submit">купить</button>
             </form>
@@ -634,7 +634,6 @@
     </div>
 
     <a class="pageup" href="#up"><img src="icons/up.svg" alt="up"></a>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>

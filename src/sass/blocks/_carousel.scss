@@ -190,6 +190,11 @@ $autoplay-duration:				5;
 			top: 50%;
 			font-size: $prev-next-icon-size;
 			color: $prev-next-icon-color;
+			@if $responsive == true {
+				@media (max-width: $breakpoint-small) {
+					top: 97%;
+				}
+			}
 		}
 
 		&:hover {
@@ -213,7 +218,6 @@ $autoplay-duration:				5;
 			@if $responsive == true {
 				@media (max-width: $breakpoint-small) {
 					left: 30px;
-					display: none;
 				}
 			}
 		}
@@ -238,7 +242,6 @@ $autoplay-duration:				5;
 			@if $responsive == true {
 				@media (max-width: $breakpoint-small) {
 					right: 30px;
-					display: none;
 				}
 			}
 		}
@@ -396,7 +399,7 @@ $autoplay-duration:				5;
 		display: block;
 	}
 
-	.fs-next-btn:nth-child(1) {
+	.fs-next-btn:nth-child(2) {
 		display: block
 	}
 

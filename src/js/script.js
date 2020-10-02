@@ -84,7 +84,9 @@ $(document).ready(function(){
     formValidate('#consultation form');
     formValidate('#order form');
 
-    $('input[name=phone]').mask("+7 (999) 999-99-99");
+    $("#phone_1").mask("+7 (999) 999-99-99");
+    $("#phone_2").mask("+7 (999) 999-99-99");
+    $("#phone_3").mask("+7 (999) 999-99-99");
 
     $('form').submit(function(e) {
         e.preventDefault();
