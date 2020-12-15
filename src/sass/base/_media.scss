@@ -259,24 +259,19 @@
     }
     .header {
         flex-direction: column;
-        height: 200px;
+        height: 90px;
         &__logo {
-            width: 200px;
+            width: 160px;
         }
         &__official {
-            font-size: 16px;
+            font-size: 14px;
             margin-right: 0;
             span {
-                font-size: 24px;
+                font-size: 20px;
             }
         }
         &__contacts {
-            justify-content: space-between;
-            align-items: center;
-            height: 65px;
-            .button {
-                width: 195px;
-            }
+            display: none;
         }
         &__phone {
             display: block;
@@ -284,10 +279,13 @@
         }
     }
     .promo {
+        min-height: 100vh;
         background: url(../img/main_mini.jpg) center (center/cover) no-repeat;
+        padding: 21px 0 2px 0;
         &__wrapper {
-            justify-content: center;
-            margin-top: 40px;
+            justify-content: space-between;
+            height: 66vh;
+            margin-top: 14vh;
             margin-right: 0;
         }
         &__header {
@@ -298,7 +296,7 @@
         }
         &__icons {
             width: 320px;
-            margin-top: 30px;
+            margin-top: 0;
             padding: 0 15px;
             margin-right: 0;
         }
